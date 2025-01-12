@@ -1,21 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página Web</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Juan Pérez - Biología Molecular</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <header>
-    <h1>Bienvenido a Mi Página Web</h1>
-  </header>
-  <main>
-    <h2>Sobre mí</h2>
-    <p>Hola, soy [Tu Nombre] y esta es mi página web.</p>
-  </main>
-  <footer>
-    <p>&copy; 2025 Mi Página Web</p>
-  </footer>
+    <header>
+        <div class="container">
+            <h1>Dr. Juan Pérez</h1>
+            <p>Profesor Titular en Biología Molecular</p>
+            <img src="foto_perfil.jpg" alt="Dr. Juan Pérez">
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#investigacion">Investigación</a></li>
+                    <li><a href="#publicaciones">Publicaciones</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Biografía breve del Dr. Juan Pérez...</p>
+        <a href="cv.pdf" download>Descargar CV</a>
+        <p>Redes Sociales: <a href="https://www.linkedin.com/in/juanperez">LinkedIn</a>, <a href="https://www.researchgate.net/profile/Juan_Perez">ResearchGate</a></p>
+    </section>
+
+    <section id="investigacion">
+        <h2>Investigación</h2>
+        <p>Áreas de interés y proyectos actuales...</p>
+    </section>
+
+    <section id="publicaciones">
+        <h2>Publicaciones</h2>
+        <ul>
+            <li><a href="articulo1.pdf">Título del Artículo 1</a></li>
+            <li><a href="articulo2.pdf">Título del Artículo 2</a></li>
+            <!-- Más publicaciones -->
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Descripción de proyectos anteriores...</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar_mensaje.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Correo electrónico: juan.perez@universidad.edu</p>
+        <p>Teléfono: (123) 456-7890</p>
+        <div id="mapa">
+            <!-- Mapa de ubicación -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dr. Juan Pérez</p>
+    </footer>
 </body>
 </html>
