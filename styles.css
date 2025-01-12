@@ -57,41 +57,6 @@ nav ul li a {
     font-size: 1.2em;
 }
 
-/* Image Section (Cover Image) */
-#home-cover {
-    width: 100%;
-    height: 250px; /* Fija la altura a 250px */
-    background-color: #333;
-    position: relative;
-    overflow: hidden;
-}
-
-.cover-image {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.cover-image img {
-    width: 100%;
-    height: 100%; /* La imagen se estira para cubrir todo el ancho y la altura */
-    object-fit: cover; /* Recorta la imagen para cubrir todo el área */
-}
-
-.cover-image .overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    font-size: 2em;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 8px;
-}
-
 /* Section styles */
 .section {
     padding: 80px 20px;
@@ -105,40 +70,46 @@ h2 {
     margin-bottom: 20px;
 }
 
-p {
-    font-size: 1.1em;
-    line-height: 1.6;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
-/* Image styles */
-.image-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.centered-image {
-    width: 45%;
-    margin: 0 10px;
+/* Publication styles */
+.publication {
+    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Message styles */
-.message {
-    margin-top: 20px;
-    background-color: #eef2f5;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 1.2em;
+.publication-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.publication-authors {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.publication-details {
+    font-size: 1em;
+    color: #777;
+    margin-top: 5px;
+}
+
+.publication-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.publication-link:hover {
+    background-color: #007bff;
+    color: white;
 }
 
 /* Footer styles */
