@@ -70,46 +70,60 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Publication styles */
-.publication {
+.contact-info {
     background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
     padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.publication-title {
-    font-size: 1.5em;
-    font-weight: bold;
+.form-group {
+    margin-bottom: 20px;
 }
 
-.publication-authors {
+label {
+    display: block;
     font-size: 1.1em;
-    color: #555;
+    margin-bottom: 8px;
 }
 
-.publication-details {
-    font-size: 1em;
-    color: #777;
-    margin-top: 5px;
-}
-
-.publication-link {
-    display: inline-block;
-    margin-top: 10px;
+input, textarea {
+    width: 100%;
+    padding: 10px;
     font-size: 1.1em;
-    color: #007bff;
-    border: 1px solid #007bff;
-    padding: 5px 10px;
+    border: 1px solid #ddd;
     border-radius: 4px;
-    background-color: white;
 }
 
-.publication-link:hover {
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
     background-color: #007bff;
     color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
 }
 
 /* Footer styles */
