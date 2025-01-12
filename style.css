@@ -97,6 +97,15 @@ ul li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Message styles */
+.message {
+    margin-top: 20px;
+    background-color: #eef2f5;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
 /* Footer styles */
 footer {
     background-color: #343a40;
