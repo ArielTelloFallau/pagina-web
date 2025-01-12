@@ -60,7 +60,7 @@ nav ul li a {
 /* Image Section (Cover Image) */
 #home-cover {
     width: 100%;
-    height: 250px; /* Ajusta la altura pequeña */
+    height: 250px; /* Fija la altura a 250px */
     background-color: #333;
     position: relative;
     overflow: hidden;
@@ -75,8 +75,8 @@ nav ul li a {
 
 .cover-image img {
     width: 100%;
-    height: 100%; /* Hace que la imagen cubra todo el ancho y tenga una altura pequeña */
-    object-fit: cover;
+    height: 100%; /* La imagen se estira para cubrir todo el ancho y la altura */
+    object-fit: cover; /* Recorta la imagen para cubrir todo el área */
 }
 
 .cover-image .overlay {
