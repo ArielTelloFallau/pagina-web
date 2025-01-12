@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ariel Tello Fallau - Contact</title>
+    <title>Contact - Ariel Tello Fallau</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
         <div class="header-container">
-            <div class="name">
-                <h1>Ariel Tello Fallau</h1>
-            </div>
+            <h1>Ariel Tello Fallau</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -23,19 +22,40 @@
         </div>
     </header>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
+    <div class="section" id="contact-section">
         <h2>Contact</h2>
-        <p>For collaborations or inquiries, feel free to reach out.</p>
-        <p>Email: ariel.tello@university.edu</p>
 
-        <div class="message">
-            <p><strong>Random Message:</strong> This is the Contact section!</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> ariel.tello@gt.edu</p>
+            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/arieltello" target="_blank">LinkedIn Profile</a></p>
+            <p><strong>Twitter:</strong> <a href="https://twitter.com/arieltello" target="_blank">@arieltello</a></p>
         </div>
-    </section>
+
+        <h3>Send a Message</h3>
+        <form action="your-server-side-script" method="POST" id="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
 
     <footer>
-        <p>&copy; 2025 Ariel Tello Fallau | All rights reserved</p>
+        <p>&copy; 2025 Ariel Tello Fallau</p>
     </footer>
+
 </body>
 </html>
