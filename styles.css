@@ -138,3 +138,13 @@ footer {
 footer p {
     margin: 0;
 }
+
+/* Imagen principal en la página de inicio */
+.hero-image {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho */
+    height: 250px; /* Mantiene la altura fija */
+    object-fit: cover; /* Recorta la imagen si es necesario para llenar el área */
+    display: block; /* Evita cualquier espacio inesperado alrededor de la imagen */
+    margin: 0; /* Elimina márgenes adicionales */
+    padding: 0; /* Elimina relleno adicional */
+}
